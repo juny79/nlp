@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.vscode/
+.venv/
+env/
+logs/
+checkpoints/
+outputs/
+*.ckpt
+*.pt
+*.bin
+*.zip
+prediction/
+.ssh/
