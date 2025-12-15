@@ -1,17 +1,48 @@
+# temp/OS files
 __pycache__/
+*.log
+logs/
+# vscode
+.vscode/
+.vscode-server/
+# venv
+venv/
+.venv/
+# big model files
+checkpoints/
+../checkpoints-*
+*.pt
+*.ckpt
+*.bin
+*.onnx
+# python cache
 *.pyc
 *.pyo
 *.pyd
-*.DS_Store
-.vscode/
-.venv/
 env/
-logs/
-checkpoints/
+# Data files
+data/
+data_0/
+data_1/
+data_2/
 outputs/
-*.ckpt
-*.pt
-*.bin
-*.zip
 prediction/
+prediction_kobart_v1/
+prediction_kobart_v2/
+prediction_kobart_v2_augmented/
+results_kobart_v2/
+results_kobart_v2_augmented/
+results_gem_b0/
+result_gem_b04/
+results_solar/
+results_solar_v2/
+grid_search_results/
+wandb/
+# sensitive files
 .ssh/
+ssh-key/
+*.zip
+.dotnet/
+.cache/
+.init-scripts/
+init-scripts/
